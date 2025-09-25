@@ -11,7 +11,7 @@
   <!ELEMENT time (#PCDATA)>
   
   <!ATTLIST complex code ID #REQUIRED>
-  <!ATTLIST lesson complex_code IDREF #REQUIRED>
+  <!ATTLIST lesson complex IDREF #REQUIRED>
   <!ATTLIST lesson no CDATA #REQUIRED>
 
   ]> 
@@ -28,13 +28,14 @@
   </complexes>
 
   <lessons>
-    <lesson no = "1" complex_code="C01">
+    <lesson no = "1" complex="C01">
       <date>2025-01-20</date>
       <time>14:30-16:00</time>
     </lesson>
-    <lesson no = "2" complex_code="C02">
+    <lesson no = "2" complex="C02">
       <date>2025-11-21</date>
       <time>9:00-10:30</time>
     </lesson>
   </lessons>
+
 </timeTable>
